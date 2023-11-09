@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST={"shop-specii.js -> ../src/components/istotope/ProductsSpecii":{"id":"shop-specii.js -> ../src/components/istotope/ProductsSpecii","files":["static/chunks/src_components_istotope_ProductsSpecii_js.js"]}}

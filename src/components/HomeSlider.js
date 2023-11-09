@@ -21,18 +21,18 @@ export const HomeSlider1 = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
-                <h1>Organic Foods &amp; Vegetables</h1>
-                <h6>25 Years of experience in agriculture farming</h6>
+                <h1>FlavorFusion</h1>
+                <h6>Добро пожаловать в FlavorFusion – ваш онлайн магазин свежих фруктов, овощей, сухофруктов, чая и пряностей! У нас вы найдете качественные и вкусные продукты для создания здоровой и вкусной пищи. Приходите к нам и наслаждайтесь покупками!
+</h6>
                 <div className="slider-btns mt-30">
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Заказать <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                   <Link href="/about">
                     <a className="theme-btn style-two">
-                      Learn More <i className="fas fa-angle-double-right" />
+                      Подробнее <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -42,24 +42,15 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/slider-image1.png"
+                  src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/2.png"
                   alt="Slider"
                 />
-                <img
-                  className="offer"
-                  src="assets/images/shapes/organic.png"
-                  alt="Organic"
-                />
+
               </div>
             </div>
           </div>
         </div>
         <div className="slide-shapes">
-          <img
-            className="pumpkin-shape"
-            src="assets/images/slider/pumpkin.png"
-            alt="Pumpkin"
-          />
           <img
             className="two-leaf"
             src="assets/images/slider/two-lear.png"
@@ -93,30 +84,26 @@ export const HomeSlider1 = () => {
               <div className="slider-images">
                 <img
                   className="image"
-                  src="assets/images/slider/slider-image2.png"
+                  src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/3.png"
                   alt="Slider"
                 />
-                <img
-                  className="offer"
-                  src="assets/images/shapes/organic.png"
-                  alt="Organic"
-                />
+
               </div>
             </div>
             <div className="col-lg-6">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
-                <h1>Organic Foods &amp; Vegetables</h1>
-                <h6>25 Years of experience in agriculture farming</h6>
+                <h1>FlavorFusion</h1>
+                <h6>Добро пожаловать в FlavorFusion – ваш онлайн магазин свежих фруктов, овощей, сухофруктов, чая и пряностей! У нас вы найдете качественные и вкусные продукты для создания здоровой и вкусной пищи. Приходите к нам и наслаждайтесь покупками!
+</h6>
                 <div className="slider-btns mt-30">
                   <Link href="/shop-grid">
                     <a className="theme-btn style-two">
-                      Shop Now <i className="fas fa-angle-double-right" />
+                      Заказать <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                   <Link href="/about">
                     <a className="theme-btn style-two">
-                      Learn More <i className="fas fa-angle-double-right" />
+                      Подробнее <i className="fas fa-angle-double-right" />
                     </a>
                   </Link>
                 </div>
@@ -125,11 +112,6 @@ export const HomeSlider1 = () => {
           </div>
         </div>
         <div className="slide-shapes">
-          <img
-            className="pumpkin-shape"
-            src="assets/images/slider/pumpkin.png"
-            alt="Pumpkin"
-          />
           <img
             className="two-leaf"
             src="assets/images/slider/two-lear.png"
@@ -181,7 +163,6 @@ export const HomeSlider2 = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
                 <h1>Organic Foods &amp; Vegetables</h1>
                 <div className="slider-btns mt-30">
                   <Link href="/shop-grid">
@@ -204,11 +185,7 @@ export const HomeSlider2 = () => {
                   src="assets/images/slider/slider-two1.png"
                   alt="Slider"
                 />
-                <img
-                  className="offer"
-                  src="assets/images/shapes/organic.png"
-                  alt="Organic"
-                />
+
               </div>
             </div>
           </div>
@@ -223,7 +200,6 @@ export const HomeSlider2 = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
                 <h1>Organic Foods &amp; Vegetables</h1>
                 <div className="slider-btns mt-30">
                   <Link href="/about">
@@ -285,7 +261,6 @@ export const HomeSlider3 = () => {
           <div className="row align-items-center">
             <div className="col-xl-5">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
                 <h1>Organic Food &amp; Vegetables</h1>
                 <p>
                   On the other hand we denounce with righteou indignation and
@@ -335,7 +310,6 @@ export const HomeSlider3 = () => {
             </div>
             <div className="col-xl-5">
               <div className="slider-content">
-                <div className="sub-title mb-20">Welcome to Munfirm</div>
                 <h1>Organic Food &amp; Vegetables</h1>
                 <p>
                   On the other hand we denounce with righteou indignation and

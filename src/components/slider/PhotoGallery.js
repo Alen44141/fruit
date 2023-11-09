@@ -33,7 +33,7 @@ export default class PhotoGallery extends Component {
               <div className="row align-items-end">
                 <div className="col-lg-8">
                   <div className="section-title mb-25">
-                    <span className="sub-title mb-15">Photo Gallery</span>
+                    <span className="sub-title mb-15"></span>
                     <h2>Insite Photo Gallery</h2>
                   </div>
                 </div>
