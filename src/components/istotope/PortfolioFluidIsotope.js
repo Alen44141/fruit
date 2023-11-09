@@ -40,7 +40,7 @@ const PortfolioFluidIsotope = () => {
         <div className="row align-items-end pb-40">
           <div className="col-lg-6 wow fadeInUp delay-0-2s">
             <div className="section-title mb-20">
-              <span className="sub-title mb-20">Photo Gallery</span>
+              <span className="sub-title mb-20"></span>
               <h2>Insite Photo Gallery</h2>
             </div>
           </div>

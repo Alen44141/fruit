@@ -7,7 +7,7 @@ import { productActiveTwo } from "../src/sliderProps";
 const ProductDetails = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Product Details"} />
+      <PageBanner pageName={"Сделать Заказ"} />
       <section className="product-details-area pt-130 rpt-100">
         <div className="container">
           <div className="row align-items-center justify-content-between">

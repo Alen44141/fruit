@@ -13,16 +13,14 @@ const E404 = () => {
             </div>
             <div className="content">
               <div className="section-title mb-20">
-                <h2>Sorry This Page Can’t Be Found</h2>
+                <h2>Ошибка</h2>
               </div>
               <p>
-                Consectetur adipiscing elit sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua suspendisse ultrices gravida
-                commodo viverra maecenas accumsan
+                Страница не существует
               </p>
               <Link href="/">
                 <a className="theme-btn style-three mt-15">
-                  Goto Home <i className="fas fa-angle-double-right" />
+                  Go to Home <i className="fas fa-angle-double-right" />
                 </a>
               </Link>
             </div>

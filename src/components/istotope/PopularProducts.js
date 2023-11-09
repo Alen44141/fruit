@@ -39,8 +39,8 @@ const PopularProducts = () => {
       <div className="row align-items-center pb-30">
         <div className="col-lg-6 wow fadeInUp delay-0-2s">
           <div className="section-title mb-20">
-            <span className="sub-title mb-20">Popular Products</span>
-            <h2>Popular Products</h2>
+            <span className="sub-title mb-20"></span>
+            <h2>Чаи и Пряности</h2>
           </div>
         </div>
         <div className="col-lg-6 text-lg-right wow fadeInUp delay-0-4s">
@@ -50,60 +50,60 @@ const PopularProducts = () => {
               className={`c-pointer ${activeBtn("*")}`}
               onClick={handleFilterKeyChange("*")}
             >
-              Show All
+              Все
             </li>
             <li
               data-filter=".vegetables"
               className={`c-pointer ${activeBtn("vegetables")}`}
               onClick={handleFilterKeyChange("vegetables")}
             >
-              Vegetables
+              Специи
             </li>
             <li
               data-filter=".fruits"
               className={`c-pointer ${activeBtn("fruits")}`}
               onClick={handleFilterKeyChange("fruits")}
             >
-              Fruits
+              Чаи
             </li>
             <li
               data-filter=".bread"
               className={`c-pointer ${activeBtn("bread")}`}
               onClick={handleFilterKeyChange("bread")}
             >
-              Bread &amp; Cakes
+              Кофе
             </li>
-            <li
+            {/* <li
               data-filter=".seafish"
               className={`c-pointer ${activeBtn("seafish")}`}
               onClick={handleFilterKeyChange("seafish")}
             >
               Sea Fish
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
       <div className="row popular-products-active">
-        <div className="col-xl-3 col-lg-4 col-sm-6 item fruits bread">
+        <div className="col-xl-3 col-lg-4 col-sm-6 item fruits bread vegetables">
           <div className="product-item wow fadeInUp delay-0-2s">
-            <span className="offer">53 Off</span>
+            {/* <span className="offer">53 Off</span> */}
             <div className="image">
-              <img src="assets/images/products/product1.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/korica.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Organic Brocolli</Link>
+                <Link href="/product-karica">Карица</Link>
               </h5>
               <span className="price">
-                <del>25</del>
-                <span>18</span>
+                {/* <del>25</del> */}
+                <span>1200 / кг</span>
               </span>
             </div>
           </div>
@@ -111,115 +111,115 @@ const PopularProducts = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6 item seafish vegetables">
           <div className="product-item wow fadeInUp delay-0-3s">
             <div className="image">
-              <img src="assets/images/products/product2.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/badyan.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Fresh Carrots</Link>
+                <Link href="/product-details">Бадьян</Link>
               </h5>
               <span className="price">
-                <span>49.58</span>
+                <span>180 / 100гр</span>
               </span>
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-sm-6 item bread fruits">
+        <div className="col-xl-3 col-lg-4 col-sm-6 item bread fruits vegetables">
           <div className="product-item wow fadeInUp delay-0-4s">
-            <span className="offer bg-red">sale</span>
+            {/* <span className="offer bg-red">sale</span> */}
             <div className="image">
-              <img src="assets/images/products/product3.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/gvozdika.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Organic Brocolli</Link>
+                <Link href="/product-details">Гвоздика</Link>
               </h5>
               <span className="price">
-                <del>25</del>
-                <span>18</span>
+                {/* <del>25</del> */}
+                <span>220 / 100гр</span>
               </span>
             </div>
           </div>
         </div>
         <div className="col-xl-3 col-lg-4 col-sm-6 item vegetables">
           <div className="product-item wow fadeInUp delay-0-5s">
-            <span className="offer">20 Off</span>
+            {/* <span className="offer">20 Off</span> */}
             <div className="image">
-              <img src="assets/images/products/product4.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/chesnok.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Chiken Egg</Link>
+                <Link href="/product-details">Чеснок молотый</Link>
               </h5>
               <span className="price">
-                <del>55</del>
-                <span>36</span>
+                {/* <del>55</del> */}
+                <span>45 / 100гр</span>
               </span>
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-sm-6 item seafish fruits">
+        <div className="col-xl-3 col-lg-4 col-sm-6 item seafish fruits vegetables">
           <div className="product-item wow fadeInUp delay-0-6s">
             <div className="image">
-              <img src="assets/images/products/product5.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/muskatni_orex.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Fresh Gooseberry</Link>
+                <Link href="/product-details">Мускатный орех</Link>
               </h5>
               <span className="price">
-                <span>205</span>
+                <span>500 / кг</span>
               </span>
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-sm-6 item bread seafish">
+        <div className="col-xl-3 col-lg-4 col-sm-6 item bread seafish vegetables">
           <div className="product-item wow fadeInUp delay-0-7s">
-            <span className="offer">53 Off</span>
+            {/* <span className="offer">53 Off</span> */}
             <div className="image">
-              <img src="assets/images/products/product6.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/imbir.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Fresh Croissants</Link>
+                <Link href="/product-details">Имбирь молотый</Link>
               </h5>
               <span className="price">
-                <del>25</del>
-                <span>18</span>
+                {/* <del>25</del> */}
+                <span>450</span>
               </span>
             </div>
           </div>
@@ -227,90 +227,112 @@ const PopularProducts = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6 item vegetables">
           <div className="product-item wow fadeInUp delay-0-2s">
             <div className="image">
-              <img src="assets/images/products/product7.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/kardamon.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Chiken Egg’s</Link>
+                <Link href="/product-details">Кардамон молотый</Link>
               </h5>
               <span className="price">
-                <span>205</span>
+                <span>45 / 100гр</span>
               </span>
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-sm-6 item seafish bread">
+        <div className="col-xl-3 col-lg-4 col-sm-6 item seafish bread vegetables">
           <div className="product-item wow fadeInUp delay-0-3s">
-            <span className="offer">53 Off</span>
+            {/* <span className="offer">53 Off</span> */}
             <div className="image">
-              <img src="assets/images/products/product8.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/karica_moloti.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Oragic Orange</Link>
+                <Link href="/product-karica">Карица молотый</Link>
               </h5>
               <span className="price">
-                <span>85</span>
+                <span>45 / 100гр</span>
               </span>
             </div>
           </div>
         </div>
-        <div className="col-xl-3 col-lg-4 col-sm-6 item fruits">
+        <div className="col-xl-3 col-lg-4 col-sm-6 item fruits vegetables">
           <div className="product-item wow fadeInUp delay-0-4s">
             <div className="image">
-              <img src="assets/images/products/product13.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/khmeli-suneli.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Organic Carrots</Link>
+                <Link href="/product-details">Хмели сунели</Link>
               </h5>
               <span className="price">
-                <span>18</span>
+                <span>450 / кг</span>
               </span>
             </div>
           </div>
         </div>
         <div className="col-xl-3 col-lg-4 col-sm-6 item seafish vegetables">
           <div className="product-item wow fadeInUp delay-0-5s">
-            <span className="offer">20 Off</span>
+            {/* <span className="offer">20 Off</span> */}
             <div className="image">
-              <img src="assets/images/products/product14.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/kurkuma_moloti.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Fresh Banana</Link>
+                <Link href="/product-details">Куркума молотый</Link>
               </h5>
               <span className="price">
-                <del>55</del>
-                <span>36</span>
+                {/* <del>55</del> */}
+                <span>50 / 100гр</span>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="col-xl-3 col-lg-4 col-sm-6 item bread fruits vegetables">
+          <div className="product-item wow fadeInUp delay-0-6s">
+            <div className="image">
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/shafran.png" alt="Product" />
+            </div>
+            <div className="content">
+              {/* <div className="ratting">
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+                <i className="fas fa-star" />
+              </div> */}
+              <h5>
+                <Link href="/product-details">Шафран молотый</Link>
+              </h5>
+              <span className="price">
+                <span>45 / 100гр</span>
               </span>
             </div>
           </div>
@@ -318,21 +340,21 @@ const PopularProducts = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6 item bread fruits">
           <div className="product-item wow fadeInUp delay-0-6s">
             <div className="image">
-              <img src="assets/images/products/product15.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/royal-brasilia.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Green Spinach</Link>
+                <Link href="/product-details">Кофе роял</Link>
               </h5>
               <span className="price">
-                <span>205</span>
+                <span>45 / 100гр</span>
               </span>
             </div>
           </div>
@@ -340,22 +362,22 @@ const PopularProducts = () => {
         <div className="col-xl-3 col-lg-4 col-sm-6 item fruits vegetables">
           <div className="product-item wow fadeInUp delay-0-7s">
             <div className="image">
-              <img src="assets/images/products/product10.png" alt="Product" />
+              <img src="https://raw.githubusercontent.com/Alen44141/images/main/Specii/chilli.png" alt="Product" />
             </div>
             <div className="content">
-              <div className="ratting">
+              {/* <div className="ratting">
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
                 <i className="fas fa-star" />
-              </div>
+              </div> */}
               <h5>
-                <Link href="/product-details">Pomegranate</Link>
+                <Link href="/product-details">Чили молотый</Link>
               </h5>
               <span className="price">
-                <del>25</del>
-                <span>18</span>
+                {/* <del>25</del> */}
+                <span>60 / 100гр</span>
               </span>
             </div>
           </div>
