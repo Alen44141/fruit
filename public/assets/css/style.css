@@ -623,7 +623,7 @@ a.theme-btn {
         padding: 8px 15px;
         margin-bottom: 5px; } }
     .filter-btns-one li.current {
-      background: #edce38; }
+      background: #76a713; }
 
 /*** Scroll Top style ***/
 .scroll-top {
@@ -716,7 +716,16 @@ a.theme-btn {
 
 /* Color + Background */
 .bg-green {
-  background-color: #227200; }
+  background-color: #00ff735b; }
+
+.bg-image {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #1a2428b0;
+  background-image: url("https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/footer/footer1.jpg"); 
+}
 
 .bg-light-green {
   background-color: #76a713; }
@@ -3888,7 +3897,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
     top: 0;
     left: 0;
     opacity: 0.2;
-    background-color: #1a2428; }
+    background-color: #1a242800; }
 
 .banner-inner {
   position: relative;
@@ -4609,7 +4618,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
     font-family: "Livvic", sans-serif; }
     .product-item .price del:before,
     .product-item .price span:before {
-      content: '$'; }
+      content: '₽'; }
   .product-item .price del {
     color: #b1b1b1; }
   .product-item .price span {
@@ -4715,7 +4724,7 @@ h1, h2, h3, h4, h5, h6, blockquote, .tag-coulds a {
   color: #76a713;
   font-family: "Livvic", sans-serif; }
   .product-details-content .price:before {
-    content: '$'; }
+    content: '₽'; }
 
 .product-details-content .add-to-cart {
   display: -webkit-box;
@@ -6775,7 +6784,7 @@ blockquote {
     font-weight: 600;
     color: #76a713; }
     .widget-products ul li .content .price:before {
-      content: '$'; }
+      content: '₽'; }
 
 .widget-about {
   z-index: 1;
@@ -7039,7 +7048,7 @@ blockquote {
     flex: none;
     width: 90px; }
   .cart-single-item .product-price:before {
-    content: '$'; }
+    content: '₽'; }
   .cart-single-item .product-total-price {
     -webkit-box-flex: 0;
     -ms-flex: none;
@@ -7049,7 +7058,7 @@ blockquote {
     text-align: center;
     color: #1a2428; }
     .cart-single-item .product-total-price:before {
-      content: '$'; }
+      content: '₽'; }
   @media only screen and (max-width: 767px) {
     .cart-single-item {
       text-align: center;
@@ -7087,7 +7096,7 @@ blockquote {
 .total-price:before,
 .shipping-price:before,
 .sub-total-price:before {
-  content: '$'; }
+  content: '₽'; }
 
 .discount-wrapper input {
   max-width: 200px;

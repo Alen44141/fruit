@@ -10,7 +10,7 @@ const ClientLogoSlider = () => {
           <Link href="/contact">
             <a>
               <img
-                src="assets/images/client-logo/client-logo1.png"
+                src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/footer/RemoveBackLogo0.png"
                 alt="Client Logo"
               />
             </a>
@@ -20,7 +20,7 @@ const ClientLogoSlider = () => {
           <Link href="/contact">
             <a>
               <img
-                src="assets/images/client-logo/client-logo2.png"
+                src="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/footer/RemoveBackLogo0.png"
                 alt="Client Logo"
               />
             </a>

@@ -22,6 +22,11 @@
 .slider-single-item.slick-active {
   display: block;
 }
+.our-team5 .team-content {
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
 
 ul.slick-dots {
   display: flex !important;

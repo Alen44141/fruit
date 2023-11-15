@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
         {/* Favicon Icon */}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.png"
+          href="https://raw.githubusercontent.com/Alen44141/images/main/remove%20back/bigremoveimage/footer/RemoveBackLogo0.png"
           type="image/x-icon"
         />
         {/* Google Fonts */}

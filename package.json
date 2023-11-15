@@ -1,6 +1,7 @@
 {
   "name": "munfirm",
   "version": "0.1.0",
+  "homepage": "https://Alen44141.github.io/fruit",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -24,5 +25,9 @@
   "devDependencies": {
     "eslint": "8.23.0",
     "eslint-config-next": "12.2.5"
-  }
+  },
+  "main": "next.config.js",
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
